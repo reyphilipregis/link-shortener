@@ -1,0 +1,13 @@
+{
+  "name": "link-shortener",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "babel-runtime": "6.18.0",
+    "react-dom": "~15.4.1",
+    "react": "~15.4.1"
+  }
+}
