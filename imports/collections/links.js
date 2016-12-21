@@ -8,10 +8,10 @@ Meteor.methods( {
 		
 		// validating the url
 		check(url, 
-			  Match.Where( ( url ) => { 
+			Match.Where( ( url ) => { 
 			  		return validUrl.isUri(url) 
 			  	}
-			  )
+			)
 		);
 	}
 } );
