@@ -15,6 +15,6 @@ class App extends Component {
 	}
 }
 
-Meteor.startup(() => {
-	ReactDOM.render(<App />, document.querySelector('.render-target'));
-})
+Meteor.startup( () => {
+	ReactDOM.render( <App />, document.querySelector('.render-target') );
+} )

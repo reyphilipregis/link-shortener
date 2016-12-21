@@ -9,14 +9,14 @@ export default class LinkCreate extends Component {
 
 	render() {
 		return (
-			<form onSubmit={this.handleSubmit.bind(this)}>
+			<form onSubmit = { this.handleSubmit.bind(this) }>
 
-				<div className="form-group">
+				<div className = "form-group">
 					<label>Link to Shorten</label>
-					<input ref="link" className="form-control" />
+					<input ref = "link" className = "form-control" />
 				</div>
 
-				<button className="btn btn-primary">
+				<button className = "btn btn-primary">
 					Shorten
 				</button>
 
