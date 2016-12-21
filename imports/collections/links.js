@@ -1,5 +1,5 @@
-import { Mongo } from 'meteor/mongo';
-import validUrl from 'valid-url';
+import { Mongo } 	   from 'meteor/mongo';
+import validUrl 	   from 'valid-url';
 import {check, Match } from 'meteor/check';
 
 // run codes in a secure fashion
